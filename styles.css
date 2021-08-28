@@ -1,45 +1,17 @@
-
+/* hashas style */
 html {
     background-color: navajowhite;
 }
-
 code {
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
 }
-
-#navbar-header {
-    color: oldlace;
-}
-
-.title-header {
-    font-size: 40px;
-    display: block;
-}
-
-.main-lis {
+h1 {
     text-align: center;
-    list-style-position: inside;
-    
+    color: lemonchiffon;
 }
-
-#main-doc {
-    width: 100%;
-    text-align: center;
-}
-
-#navbar-header {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: 10px
-}
-
-#smileImg {
-    height: 20px;
-    width: 20px;
-}
-/* main section */
+/* nav-bar */
 #navbar {
     margin: 0px;
     height: 100%;
@@ -51,6 +23,7 @@ code {
     display: block;
 }
 .nav-link {
+    align-content: center;
     border: 2px solid black;
     color: black;
     background-color: lightseagreen;
@@ -58,6 +31,34 @@ code {
     display: block;
     padding: 20px;
     position: relative;
+    margin: auto;
+}
+
+#navbar-header {
+    color: oldlace;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 10px
+}
+/* main style */
+#top-header {
+    text-align: center;
+    background-size: 400px;
+    height: 200px;
+    background-image: url(backToWork.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title-header {
+    font-size: 40px;
+    display: block;
+}
+
+
+#main-doc {
+    background-size: cover;
+    width: 100%;
+    text-align: center;
 }
 
 .main-p {
@@ -65,19 +66,50 @@ code {
     display: block;
 }
 
+.main-lis {
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+#smileImg {
+    height: 20px;
+    width: 20px;
+}
+
+/* media quary */
+@media (min-width: 1400px) {
+    .main-section {
+        padding-left: 0px;
+    }
+}
 @media (max-width: 960px) {
+    .main-section {
+        padding-left: 130px;
+    }
     #navbar {
         background-color: oldlace;
-        width: 15%;
+        width: 100px;
     }
     #navbar-header {
         color: rgb(180, 72, 72);
     }
 }
 @media (max-width: 800px) {
+    .main-section {
+        padding-left: 110px;
+    }
+    .main-p {
+        position: relative;
+        display: block;
+    }
+    .main-lis {
+        text-align: center;
+        list-style-position: inside;
+        
+    }
     #navbar {
         background-color: rgb(192, 106, 65);
-        width: 15%;
     }
     #navbar-header {
         color: rgb(219, 212, 115);
