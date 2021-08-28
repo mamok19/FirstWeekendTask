@@ -15,11 +15,13 @@ code {
 
 .title-header {
     font-size: 40px;
+    display: block;
 }
 
 .main-lis {
     text-align: center;
     list-style-position: inside;
+    
 }
 
 #main-doc {
@@ -37,16 +39,16 @@ code {
     height: 20px;
     width: 20px;
 }
-
+/* main section */
 #navbar {
     margin: 0px;
-    padding: 0px;
     height: 100%;
-    width: 8%;
+    width: 10%;
     text-align: center;
     background-color: darkslategrey;
     position: fixed;
     transition: 0.5s;
+    display: block;
 }
 .nav-link {
     border: 2px solid black;
@@ -55,6 +57,7 @@ code {
     margin: 1px;
     display: block;
     padding: 20px;
+    position: relative;
 }
 
 .main-p {
