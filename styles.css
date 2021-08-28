@@ -1,4 +1,14 @@
 
+html {
+    background-color: navajowhite;
+}
+
+code {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 #navbar-header {
     color: oldlace;
 }
@@ -11,17 +21,16 @@
     text-align: center;
     list-style-position: inside;
 }
-html {
-    background-color: navajowhite;
-}
+
 #main-doc {
     width: 100%;
     text-align: center;
 }
-code {
-    font-size: 15px;
-    font-style: italic;
+
+#navbar-header {
+    font-size: 1.25em;
     font-weight: bold;
+    margin: 10px
 }
 
 #smileImg {
@@ -30,6 +39,8 @@ code {
 }
 
 #navbar {
+    margin: 0px;
+    padding: 0px;
     height: 100%;
     width: 8%;
     text-align: center;
@@ -44,6 +55,11 @@ code {
     margin: 1px;
     display: block;
     padding: 20px;
+}
+
+.main-p {
+    position: relative;
+    display: block;
 }
 
 @media (max-width: 960px) {
