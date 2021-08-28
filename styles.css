@@ -12,6 +12,11 @@
     width: 100%;
     text-align: center;
 }
+code {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
 
 #navbar {
     height: 100%;
